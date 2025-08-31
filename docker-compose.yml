@@ -4,7 +4,7 @@ services:
   devops-tp:
     build:
       context: .
-      dockerfile: Dockerfile.tp
+#      dockerfile: Dockerfile.tp
     container_name: devops-tp
     volumes:
       - .:/home/app
