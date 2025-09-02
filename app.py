@@ -1,11 +1,11 @@
 from flask import Flask
 
 
-#comment to remove !!!
 app = Flask(__name__)
 
 
 @app.route("/")
+#comment to remove !!!
 def hello():
     return "Hello, eKod!"
 
