@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    # comment to remove !!!
+    # comment to remove !!! comment to remove !!!
     return "Hello, eKod!"
 
 
